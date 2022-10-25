@@ -1,0 +1,49 @@
+body
+{
+    background-color: #fbd139;
+}
+
+h1{
+    color:rgb(1, 1, 74);
+    background-color: bisque;
+}
+
+#showsketch
+{
+    float:right;
+}
+
+#clear
+{
+    box-shadow: 10px -10px lightsalmon;
+}
+canvas
+{
+    border:5px solid rgb(173, 204, 215);
+    border-radius:20px;
+    animation-name: example;
+    animation-duration: 7s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+@keyframes example
+{
+    from {box-shadow: 4px 4px 40px black;}
+    to {box-shadow: 3px 3px 40px lightcyan;}
+}
+
+p
+{
+    padding-top:10px;
+    font-size:25px;
+}
+
+#showsketch:hover
+{
+    background-color: lightseagreen;
+}
+
+#back_button
+{
+    float: left;
+}
